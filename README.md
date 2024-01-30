@@ -1,8 +1,18 @@
-# React + Vite
+Memory Card game written in React - The idea of this game is to select a card, and on the next round select anything BUT the card just selected.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Components To-Do:
 
-Currently, two official plugins are available:
+- Loading page:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - Single clickable button to "Start Game".
+
+- Cards:
+
+  - 5 cards side-by-side with different texts/images on each card.
+
+- Win screen:
+
+  - Text to say you won with your score.
+
+- Lose screen:
+  - Text to say you lost with your score.
